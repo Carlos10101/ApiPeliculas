@@ -1,0 +1,61 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(peliculas/fondopelis.jpg);
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background-image: url(peliculas/fondowide.jpg);
+}
+
+#genre-select {
+    margin-left: 10px;
+}
+
+#movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    display: flex;
+}
+
+.movie-card {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    
+   
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+}
+
+.navigation {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.navigation button {
+    margin: 5px;
+    padding: 15px 35px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navigation button:hover {
+    background-color: greenyellow;
+}
